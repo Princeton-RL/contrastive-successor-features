@@ -25,12 +25,14 @@ jobs:
         ruby-version: '3.2.2'
         bundler-cache: true
     - name: Install and Build 🔧
+      working-directory: ./docs
       run: |
         pip3 install --upgrade jupyter
         npm install -g mermaid.cli
         export JEKYLL_ENV=production
         bundle exec jekyll build
     - name: Deploy 🚀
+      working-directory: ./docs
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
       with:
