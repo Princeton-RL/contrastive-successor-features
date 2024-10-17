@@ -54,6 +54,9 @@ footer_fixed: false
 # Dimensions
 max_width: 800px
 
+sass:
+  sass_dir: _sass
+
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
