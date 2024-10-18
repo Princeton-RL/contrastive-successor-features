@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://princeton-rl.github.io/contrastive-successor-features/sitemap.xml
+Sitemap: https://princeton-rl.github.io//contrastive-successor-features//sitemap.xml
