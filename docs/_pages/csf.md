@@ -12,7 +12,7 @@ no_header: true
 <p><center><b><a href="#">Paper</a>, &emsp; <a href="https://github.com/Princeton-RL/contrastive-successor-features">Code</a></b></center></p>
 
 <p align="center">
-<img src="../assets/csf/teaser.png" width="80%" />
+<img src="assets/csf/teaser.png" width="80%" />
 </p>
 
 *__Abstract__:
