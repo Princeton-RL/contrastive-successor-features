@@ -22,4 +22,67 @@ Self-supervised learning has the potential of lifting several of the key challen
 **Code**: <a href="https://github.com/Princeton-RL/contrastive-successor-features">https://github.com/Princeton-RL/contrastive-successor-features</a>
 
 # Videos of Learned Policies
-Coming soon!
+
+<h2>Quadruped</h2>
+<hr>
+<div class="row mt-12 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>CSF</h3>
+    {% include video.html path="/assets/csf/csf_quadruped_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
+
+<div class="row mt-6 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>METRA</h3>
+    {% include video.html path="/assets/metra/metra_quadruped_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
+
+<h2>Ant</h2>
+<hr>
+<div class="row mt-12 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>CSF</h3>
+    {% include video.html path="/assets/csf/csf_ant_40k.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
+
+<div class="row mt-6 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>METRA</h3>
+    {% include video.html path="/assets/metra/metra_ant_40k.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
+
+<h2>Humanoid</h2>
+<hr>
+<div class="row mt-12 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>CSF</h3>
+    {% include video.html path="/assets/csf/csf_humanoid_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
+
+<div class="row mt-6 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>METRA</h3>
+    {% include video.html path="/assets/metra/metra_humanoid_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
+
+<h2>Robobin</h2>
+<hr>
+<div class="row mt-12 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>CSF</h3>
+    {% include video.html path="/assets/csf/csf_robobin_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
+
+<div class="row mt-6 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>METRA</h3>
+    {% include video.html path="/assets/metra/metra_robobin_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
