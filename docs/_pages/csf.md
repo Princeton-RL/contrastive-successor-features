@@ -90,3 +90,35 @@ The videos below indeed show that our method (CSF) qualitatively learns similar 
     {% include video.html path="/assets/metra/metra_ant_40k.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
   </div>
 </div>
+
+<h2>Cheetah</h2>
+<hr>
+<div class="row mt-12 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>CSF</h3>
+    {% include video.html path="/assets/csf/csf_cheetah_28k.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
+
+<div class="row mt-6 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>METRA</h3>
+    {% include video.html path="/assets/metra/metra_cheetah_28k.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
+
+<h2>Kitchen</h2>
+<hr>
+<div class="row mt-12 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>CSF</h3>
+    {% include video.html path="/assets/csf/csf_kitchen_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
+
+<div class="row mt-6 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>METRA</h3>
+    {% include video.html path="/assets/metra/metra_kitchen_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
