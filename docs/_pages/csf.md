@@ -9,7 +9,7 @@ no_header: true
 ---
 
 <p><center><a href="https://chongyi-zheng.github.io">Chongyi Zheng*</a>, &emsp; <a href="https://jens321.github.io">Jens Tuyls*</a>, &emsp; <a href="https://www.joannepeng.com">Joanne Peng</a>, &emsp; <a href="https://ben-eysenbach.github.io">Benjamin Eysenbach</a></center></p>
-<p><center><b><a href="#">Paper</a>, &emsp; <a href="https://github.com/Princeton-RL/contrastive-successor-features">Code</a></b></center></p>
+<p><center><b><a href="https://arxiv.org/abs/2412.08021">Paper</a>, &emsp; <a href="https://github.com/Princeton-RL/contrastive-successor-features">Code</a></b></center></p>
 
 <p align="center">
 <img src="assets/csf/teaser.png" width="80%" />
@@ -22,6 +22,26 @@ Self-supervised learning has the potential of lifting several of the key challen
 **Code**: <a href="https://github.com/Princeton-RL/contrastive-successor-features">https://github.com/Princeton-RL/contrastive-successor-features</a>
 
 # Videos of Learned Policies
+
+Our key theoretical result is that a prominent skill learning algorithm (METRA) can be reinterpreted as doing mutual information maximization. This opens the door to a new skill learning method (CSF) that is simpler, has the same objective as a long line of prior work, and achieves results that are on par with the current SOTA.
+
+The videos below indeed show that our method (CSF) qualitatively learns similar skills to the prior method (METRA).
+
+<h2>Robobin</h2>
+<hr>
+<div class="row mt-12 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>CSF</h3>
+    {% include video.html path="/assets/csf/csf_robobin_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
+
+<div class="row mt-6 justify-content-center">
+  <div class="col-sm mt-6 mt-md-0 text-center">
+    <h3>METRA</h3>
+    {% include video.html path="/assets/metra/metra_robobin_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+  </div>
+</div>
 
 <h2>Quadruped</h2>
 <hr>
@@ -36,22 +56,6 @@ Self-supervised learning has the potential of lifting several of the key challen
   <div class="col-sm mt-6 mt-md-0 text-center">
     <h3>METRA</h3>
     {% include video.html path="/assets/metra/metra_quadruped_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-  </div>
-</div>
-
-<h2>Ant</h2>
-<hr>
-<div class="row mt-12 justify-content-center">
-  <div class="col-sm mt-6 mt-md-0 text-center">
-    <h3>CSF</h3>
-    {% include video.html path="/assets/csf/csf_ant_40k.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-  </div>
-</div>
-
-<div class="row mt-6 justify-content-center">
-  <div class="col-sm mt-6 mt-md-0 text-center">
-    <h3>METRA</h3>
-    {% include video.html path="/assets/metra/metra_ant_40k.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
   </div>
 </div>
 
@@ -71,18 +75,18 @@ Self-supervised learning has the potential of lifting several of the key challen
   </div>
 </div>
 
-<h2>Robobin</h2>
+<h2>Ant</h2>
 <hr>
 <div class="row mt-12 justify-content-center">
   <div class="col-sm mt-6 mt-md-0 text-center">
     <h3>CSF</h3>
-    {% include video.html path="/assets/csf/csf_robobin_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    {% include video.html path="/assets/csf/csf_ant_40k.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
   </div>
 </div>
 
 <div class="row mt-6 justify-content-center">
   <div class="col-sm mt-6 mt-md-0 text-center">
     <h3>METRA</h3>
-    {% include video.html path="/assets/metra/metra_robobin_3000.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    {% include video.html path="/assets/metra/metra_ant_40k.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
   </div>
 </div>
