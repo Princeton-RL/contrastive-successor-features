@@ -9,7 +9,7 @@ no_header: true
 ---
 
 <p><center><a href="https://chongyi-zheng.github.io">Chongyi Zheng*</a>, &emsp; <a href="https://jens321.github.io">Jens Tuyls*</a>, &emsp; <a href="https://www.joannepeng.com">Joanne Peng</a>, &emsp; <a href="https://ben-eysenbach.github.io">Benjamin Eysenbach</a></center></p>
-<p><center><b><a href="#">Paper</a>, &emsp; <a href="https://github.com/Princeton-RL/contrastive-successor-features">Code</a></b></center></p>
+<p><center><b><a href="https://arxiv.org/abs/2412.08021">Paper</a>, &emsp; <a href="https://github.com/Princeton-RL/contrastive-successor-features">Code</a></b></center></p>
 
 <p align="center">
 <img src="assets/csf/teaser.png" width="80%" />
